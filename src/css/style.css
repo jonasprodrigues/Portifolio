@@ -1,0 +1,41 @@
+.nome {
+    position: absolute;
+    left: 30px;
+    top: 300;
+    font-size: 100px;
+}
+
+.prof {
+    width: 100%;
+}
+
+.rosto {
+    width: 40%;
+    position: absolute;
+    right: 30px;
+    top: 300;
+}
+
+body{
+    background: linear-gradient(90deg,#7fc8e7, #073d54);
+}
+
+.painel-1 {
+    height: 2000px;
+}
+
+.logo-html {
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    top: 500px;
+
+}
+
+.logo-linkedin {
+    width: 300px;
+    position: absolute;
+    left: 900px;
+    top: 500px;
+
+}
