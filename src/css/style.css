@@ -1,14 +1,49 @@
+/************************* NOME E PROFISSÃO DA CAPA *************************/
+.cab-sobre {
+    position: absolute;
+    left: 33%;
+    top: 10px;
+    font-size: 40px;
+    font-family:  'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+.cab-projetos{
+    position: absolute;
+    left: 45%;
+    top: 10px;
+    font-size: 40px;
+    font-family:  'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-decoration-color: #073d54;
+}
+.cab-contato{
+    position: absolute;
+    left: 57%;
+    top: 10px;
+    font-size: 40px;
+    font-family:  'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+/************************* NOME E PROFISSÃO DA CAPA *************************/
 .nome {
     position: absolute;
-    left: 30px;
-    top: 300;
-    font-size: 100px;
+    left: 100px;
+    top: 80px;
+    font-size: 150px;
+    font-family:  'Lucida Sans', Arial, sans-serif;    
 }
 
 .prof {
-    width: 100%;
+    position: absolute;
+    left: 100px;
+    top: 360px;
+    font-size: 50px;
 }
-
+/************************* IMAGEM DA CAPA *************************/
 .rosto {
     width: 40%;
     position: absolute;
@@ -16,6 +51,7 @@
     top: 300;
 }
 
+/************************* PROPRIEDADES DA CAPA *************************/
 body{
     background: linear-gradient(90deg,#7fc8e7, #073d54);
 }
@@ -24,18 +60,84 @@ body{
     height: 2000px;
 }
 
+/************************* LOGOS DE HABILIDADES DA CAPA *************************/
 .logo-html {
-    width: 300px;
+    width: 200px;
     position: absolute;
-    left: 300px;
-    top: 500px;
-
+    left: 40px;
+    top: 650px;
 }
 
-.logo-linkedin {
-    width: 300px;
+.logo-css {
+    width: 200px;
+    position: absolute;
+    left: 260px;
+    top: 650px;
+}
+
+.logo-js {
+    width: 220px;
+    position: absolute;
+    left: 460px;
+    top: 640px;
+}
+
+.logo-pythom {
+    width: 200px;
+    position: absolute;
+    left: 680px;
+    top: 650px;
+}
+
+.logo-csharp {
+    width: 200px;
     position: absolute;
     left: 900px;
-    top: 500px;
+    top: 645px;
+}
 
+.logo-git {
+    width: 230px;
+    position: absolute;
+    left: 1120px;
+    top: 630px;
+}
+
+/************************* TEXTOS DE HABILIDADES DA CAPA *************************/
+.text-html {
+    position: absolute;
+    left: 40px;
+    top: 800px;
+    font-size: 50px;   
+}
+
+.text-css {
+    position: absolute;
+    left: 285px;
+    top: 800px;
+    font-size: 50px;   
+}
+.text-js {
+    position: absolute;
+    left: 515px;
+    top: 800px;
+    font-size: 50px;   
+}
+.text-pythom {
+    position: absolute;
+    left: 645px;
+    top: 800px;
+    font-size: 50px;   
+}
+.text-csharp {
+    position: absolute;
+    left: 945px;
+    top: 800px;
+    font-size: 50px;   
+}
+.text-git {
+    position: absolute;
+    left: 1160px;
+    top: 800px;
+    font-size: 50px;   
 }
