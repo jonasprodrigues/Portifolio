@@ -1,4 +1,4 @@
-/************************* NOME E PROFISSÃO DA CAPA *************************/
+/************************* MENU DO CABEÇALHO *************************/
 .cab-sobre {
     position: absolute;
     left: 33%;
@@ -27,6 +27,23 @@
     font-weight: bold;
     color: aliceblue;
 }
+
+/*------------------------------  LINKS DO MENU ------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------  ------------  ------------------------------*/
 
 /************************* NOME E PROFISSÃO DA CAPA *************************/
 .nome {
@@ -57,7 +74,7 @@ body{
 }
 
 .painel-1 {
-    height: 2000px;
+    height: 1200px;
 }
 
 /************************* LOGOS DE HABILIDADES DA CAPA *************************/
@@ -82,7 +99,7 @@ body{
     top: 640px;
 }
 
-.logo-pythom {
+.logo-python {
     width: 200px;
     position: absolute;
     left: 680px;
@@ -123,7 +140,7 @@ body{
     top: 800px;
     font-size: 50px;   
 }
-.text-pythom {
+.text-python {
     position: absolute;
     left: 645px;
     top: 800px;
@@ -141,3 +158,44 @@ body{
     top: 800px;
     font-size: 50px;   
 }
+
+/*------------------------------  CARACTERISTICA DA DIV sobre mim ------------------------------>
+
+
+frame com 2 botoes grandes, um do lado do outro, tela dividida no meio
+
+1 pra descrição
+1 pra foto
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------  ------------  ------------------------------*/
+
+
+
+/*------------------------------  CARACTERISTICA DA DIV contato ------------------------------
+
+frame com 3 botoes grandes, um do lado do outro
+
+1 pra instagran
+1 pra linkedim
+1 pra github
+
+
+
+
+
+
+
+
+
+------------------------------  ------------  ------------------------------*/
