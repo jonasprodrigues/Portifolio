@@ -1,3 +1,15 @@
+.invisivel{ 
+    visibility:hidden;
+    
+}
+
+.titulo {
+    position:absolute;
+    width: 100%;
+    left: 40%;
+    
+}
+
 /************************* MENU DO CABEÇALHO *************************/
 .cab-sobre {
     position: absolute;
@@ -85,6 +97,16 @@ body{
     background-color: black;
     padding: 0px;
 }
+
+.painel-3 {
+    width: 100%;
+    height: 800px;
+    position:relative;
+    background-color: whitesmoke;
+    padding: 0px;
+
+}
+
 /************************* LOGOS DE HABILIDADES DA CAPA *************************/
 .logo-html {
     width: 100px;
@@ -204,6 +226,120 @@ body{
 
 .foto-cerveja {
     width: 530px;
+}
+
+
+/*------------------------------  HABILIDADES ------------------------------*/
+
+.img-html {
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.img-css {
+    width: 200px;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.img-js {
+    width: 200px;
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.img-phyton {
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.img-c-sharp {
+    width: 200px;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.img-git {
+    width: 200px;
+    position: absolute;
+    left: 1100px;
+    top: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: dashed;
+}
+
+/*------------------------------  efeitos de HABILIDADES ------------------------------*/
+
+
+.img-html:hover {
+    width: 220px;
+    left: 90px;
+    top: 90px;
+    
+}
+
+.img-css:hover {
+    width: 220px;
+    left: 590px;
+    top: 90px;
+    
+}
+
+.img-js:hover {
+    width: 220px;
+    left: 1090px;
+    top: 90px;
+    
+}
+
+.img-phyton:hover {
+    width: 220px;
+    left: 90px;
+    top: 390px;
+    
+}
+
+.img-c-sharp:hover {
+    width: 220px;
+    left: 590px;
+    top: 390px;
+    
+}
+
+.img-git:hover {
+    width: 220px;
+    left: 1090px;
+    top: 390px;
+    
 }
 
 /*------------------------------  CARACTERISTICA DA DIV contato ------------------------------
