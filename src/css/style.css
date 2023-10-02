@@ -270,9 +270,18 @@ body{
     font-size: 16px;
 }
 
-.1 {
-    border-left: 30px solid  #3bb54a;
+.first {
+    border-left: 6px solid  #3bb54a;
 }
+
+.second {
+    border-left: 6px solid  #3bb54a;
+}
+
+.third {
+    border-left: 6px solid  #3bb54a;
+}
+
 
 /*------------------------------  HABILIDADES ------------------------------*/
 
