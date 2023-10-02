@@ -3,12 +3,6 @@
     
 }
 
-.titulo {
-    position:absolute;
-    width: 100%;
-    left: 40%;
-    
-}
 
 /************************* MENU DO CABEÇALHO *************************/
 .cab-sobre {
@@ -227,7 +221,7 @@ body{
 
 .frame-2 {
     padding-top: 70px;
-    height: 8000px;
+    height: 800px;
     float:right;
 }
 
@@ -414,21 +408,32 @@ frame com 3 botoes grandes, um do lado do outro
 
 ------------------------------  ------------  ------------------------------*/
 
+.card-contato {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5 px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    justify-content:center;
+    align-items: center;
+}
+
 .contato-git {
-    float: right;
-    max-width: 64px;
-    max-height: 64px;
+    max-width: 164px;
+    max-height: 164px;
+    ba
 }
 
 .contato-insta {
-    float: right;
-    max-width: 64px;
-    max-height: 64px;
+    max-width: 164px;
+    max-height: 164px;
 }
 
 .contato-linkedin {
-    float: right;
-    max-width: 64px;
-    max-height: 64px;
+    max-width: 164px;
+    max-height: 164px;
 }
 
