@@ -98,11 +98,20 @@ body{
     padding: 0px;
 }
 
+.painel-3a {
+    display:inline;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .painel-3 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 .painel-4 {
     width: 100%;
@@ -237,17 +246,33 @@ body{
 /*------------------------------  PROJETOS ------------------------------*/
 
 .img-nulo {
-    width: 200px;
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    padding: 30px;
-    border-radius: 30px;
-    border-color: black;
-    border-style: dashed;
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
 }
 
+.card {
+    border-radius: 5 px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
 
+.card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: red;
+    font-size: 16px;
+}
+
+.1 {
+    border-left: 30px solid  #3bb54a;
+}
 
 /*------------------------------  HABILIDADES ------------------------------*/
 
@@ -379,3 +404,22 @@ frame com 3 botoes grandes, um do lado do outro
 
 
 ------------------------------  ------------  ------------------------------*/
+
+.contato-git {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.contato-insta {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.contato-linkedin {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
