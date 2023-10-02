@@ -68,11 +68,25 @@
     font-size: 50px;
 }
 /************************* IMAGEM DA CAPA *************************/
+
+.carregando {
+    z-index: 2;
+    transform: rotate(20deg) translate(800px, 16px) scale(1.3, 1) skew(-37deg, -8deg);
+    position: relative;
+    top: 200px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+
 .rosto {
     width: 40%;
-    position: absolute;
-    right: 30px;
+    position:absolute;
+    left: 800px;
     top: 300;
+    
 }
 
 /************************* PROPRIEDADES DA CAPA *************************/
@@ -84,6 +98,7 @@ body{
 .painel-1 {
     height: 700px;
 }
+
 
 .painel-2 {
     height: 800px;
@@ -421,10 +436,25 @@ frame com 3 botoes grandes, um do lado do outro
     align-items: center;
 }
 
+.card-contato-git {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5 px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+    justify-content:center;
+    align-items: center;
+
+    background-image: url(https://www.linkedin.com/in/jonas-pereira-rodrigues-4535b05b/);
+}
+
+
 .contato-git {
     max-width: 164px;
     max-height: 164px;
-    ba
 }
 
 .contato-insta {
