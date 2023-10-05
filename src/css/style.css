@@ -201,6 +201,15 @@ body{
 
 }
 
+.texto-habilidades {
+    position: relative;
+    width: 30%;
+    height: 200px;
+    position:relative;
+    background-color: blue;
+    padding: 0px;
+}
+
 /************************* LOGOS DE HABILIDADES DA CAPA *************************/
 .logo-html {
     width: 100px;
