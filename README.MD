@@ -13,3 +13,6 @@ WEBPAGE FOR DEVELOPER
 ⬜Fundo gradiente Azul e cinza escuro
 ⬜Painels with SECTION ELEMENT
 ⬜Cards Portifolio Image WIDTH and POSITION
+
+link da página 
+https://portfolio.github.io/webpage/
